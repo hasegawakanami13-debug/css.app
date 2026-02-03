@@ -1,0 +1,63 @@
+/* 全体のレイアウト */
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #121212; /* 夜のイメージ */
+    color: #eee;
+}
+
+#map {
+    height: 70vh;
+    width: 100%;
+    border-bottom: 4px solid #e63946;
+}
+
+/* 操作パネル */
+.controls {
+    padding: 20px;
+    background: #1a1a1a;
+    text-align: center;
+}
+
+h2 {
+    margin: 0 0 15px 0;
+    color: #ffb703;
+    font-size: 1.5rem;
+}
+
+/* スライダーのデザイン */
+.slider-container {
+    margin-bottom: 20px;
+}
+
+input[type=range] {
+    width: 80%;
+    max-width: 300px;
+    cursor: pointer;
+}
+
+/* ボタンのデザイン */
+.btn {
+    background: #e63946;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 4px 15px rgba(230, 57, 70, 0.4);
+}
+
+.btn:hover {
+    background: #f1faee;
+    color: #e63946;
+    transform: scale(1.05);
+}
+
+.status {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #a8dadc;
+}
